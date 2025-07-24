@@ -1,9 +1,11 @@
+import Content from "./component/Content";
 import Toogle from "./component/Toogle";
 
 function App() {
   return (
     <>
-      <Toogle label={"toggle"} />
+      <Toogle />
+      <Content />
     </>
   );
 }
